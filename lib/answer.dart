@@ -11,8 +11,9 @@ class Answer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return Container(
       width: double.infinity,
+      margin: const EdgeInsets.only(bottom: 12),
       child: ElevatedButton(
         child: Text(answerText),
         onPressed: selectHandler,
