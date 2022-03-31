@@ -20,11 +20,19 @@ class _QuizState extends State<Quiz> {
   List<String> options = ['', 'A', 'B', 'C', 'D', 'E', 'F'];
   int _selected = 0;
 
-  @override
-  void initState() {
-    questions[widget.questionIndex].answers.insert(0, {'text': '', 'score': 0});
-    super.initState();
-  }
+  // @override
+  // void initState() {
+  // var olddata = questions[widget.questionIndex].answers;
+  // var newdata = [
+  //   {'text': '', 'score': 0},
+  //   {'text': 'saksa', 'score': 0}
+  // ];
+  // for (int i = 0; i < olddata.length; i++) {
+  //   return newdata.add(olddata[i]);
+  // }
+  // questions[widget.questionIndex].answers.insert(0, {'text': '', 'score': 0});
+  //   super.initState();
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -35,13 +43,6 @@ class _QuizState extends State<Quiz> {
         children: [
           Center(child: Text('Question: $addup of ${questions.length}')),
           Question(questions[widget.questionIndex].questionText),
-          // ...(questions[questionIndex].answers).map((answer) {
-          //   return Answer(
-          //     () => answerQuestion(answer['score']),
-          //     answer['text'].toString(),
-          //   );
-          // }).toList(),
-          // const SizedBox(height: 20),
           for (var i = 0;
               i < questions[widget.questionIndex].answers.length;
               i++)
@@ -84,13 +85,38 @@ class _QuizState extends State<Quiz> {
               ),
             ),
           const SizedBox(height: 20),
-          ElevatedButton(
-            onPressed: () => widget.answerQuestion(
-                questions[widget.questionIndex].answers[_selected]['score']),
-            child: const Text('NEXT'),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              SizedBox(
+                width: MediaQuery.of(context).size.width / 2,
+                child: ElevatedButton(
+                  onPressed: () {
+                    if (_selected == 0) {
+                      snackBar('Error: No answer selected');
+                    } else {
+                      setState(() {
+                        _selected == 0;
+                      });
+                      widget.answerQuestion(questions[widget.questionIndex]
+                          .answers[_selected]['score']);
+                      debugPrint('$_selected after clicking');
+                    }
+                  },
+                  child: const Text('NEXT'),
+                ),
+              ),
+            ],
           ),
         ],
       ),
     );
+  }
+
+  snackBar(String msg) {
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+      padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
+      content: Text(msg, style: Theme.of(context).primaryTextTheme.subtitle2),
+    ));
   }
 }

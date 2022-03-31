@@ -13,6 +13,7 @@ List<QuestionModel> questions = [
     questionText:
         'When was the maiden event for GDG OGBOMOSO and what\'s the theme?',
     answers: [
+      {'text': '', 'score': 0},
       {'text': '30th Feb, 2019. Theme: How to make money in tech', 'score': 0},
       {
         'text':
@@ -34,6 +35,7 @@ List<QuestionModel> questions = [
   QuestionModel(
     questionText: 'What is GDG Ogbomoso Objectives?',
     answers: [
+      {'text': '', 'score': 0},
       {'text': 'How to be relevant in trending technologies', 'score': 0},
       {'text': 'To make money', 'score': 0},
       {
@@ -47,6 +49,7 @@ List<QuestionModel> questions = [
   QuestionModel(
     questionText: 'Full meaning of GDG',
     answers: [
+      {'text': '', 'score': 0},
       {'text': 'Google Developer Groups', 'score': 10},
       {'text': 'Google Degree Ghost', 'score': 0},
       {'text': 'Group Developer Google', 'score': 0},
@@ -56,6 +59,7 @@ List<QuestionModel> questions = [
   QuestionModel(
     questionText: 'How many past events as GDG Ogbomoso organized as at today?',
     answers: [
+      {'text': '', 'score': 0},
       {'text': '26 events', 'score': 0},
       {'text': '25 events', 'score': 0},
       {'text': '24 events', 'score': 0},
@@ -66,6 +70,7 @@ List<QuestionModel> questions = [
     questionText:
         'Which Workshop is GDG Ogbomoso hosting in it\'s Flutter Festival',
     answers: [
+      {'text': '', 'score': 0},
       {'text': 'How to build a quiz application', 'score': 0},
       {'text': 'Building your first flutter App', 'score': 10},
       {'text': 'Building your second flutter app', 'score': 0},
@@ -75,6 +80,7 @@ List<QuestionModel> questions = [
   QuestionModel(
     questionText: 'GDG Ogbomoso started how many years ago?',
     answers: [
+      {'text': '', 'score': 0},
       {'text': '3years ago.', 'score': 10},
       {'text': '2years ago.', 'score': 0},
       {'text': '1years ago.', 'score': 0},
@@ -84,6 +90,7 @@ List<QuestionModel> questions = [
   QuestionModel(
     questionText: 'What\'s the leadership team of GDG Ogbomoso refered to.',
     answers: [
+      {'text': '', 'score': 0},
       {'text': 'Facilitators', 'score': 0},
       {'text': 'Organizer\'s', 'score': 10},
       {'text': 'Founders', 'score': 0},
@@ -93,6 +100,7 @@ List<QuestionModel> questions = [
   QuestionModel(
     questionText: 'Who are the core members of GDG Ogbomoso?',
     answers: [
+      {'text': '', 'score': 0},
       {'text': 'UI students', 'score': 0},
       {'text': 'Ladokite(LAUTECH Students)', 'score': 10},
       {'text': 'Ogbomosho Tech bros', 'score': 0},
@@ -102,6 +110,7 @@ List<QuestionModel> questions = [
   QuestionModel(
     questionText: 'What\'s the full meaning of LAUTECH.',
     answers: [
+      {'text': '', 'score': 0},
       {'text': 'Laolu Akintola University Of Technology.', 'score': 0},
       {'text': 'Ladoja Akintade University Of Technology.', 'score': 0},
       {'text': 'Ladoke Akintola University Of Technology.', 'score': 10},
@@ -111,6 +120,7 @@ List<QuestionModel> questions = [
   QuestionModel(
     questionText: 'List the first two GDG Ogbomoso event theme ',
     answers: [
+      {'text': '', 'score': 0},
       {
         'text': '''
 i. Cloud Study Jam 2019.
@@ -134,6 +144,7 @@ ii. Greet and meet ''',
   QuestionModel(
     questionText: 'Who created Flutter?',
     answers: [
+      {'text': '', 'score': 0},
       {'text': 'Facebook', 'score': 0},
       {'text': 'Adobe', 'score': 0},
       {'text': 'Google', 'score': 10},
@@ -143,6 +154,7 @@ ii. Greet and meet ''',
   QuestionModel(
     questionText: 'What is Flutter?',
     answers: [
+      {'text': '', 'score': 0},
       {'text': 'Android Development Kit', 'score': 0},
       {'text': 'IOS Development Kit', 'score': 0},
       {'text': 'Web Development Kit', 'score': 0},
@@ -156,6 +168,7 @@ ii. Greet and meet ''',
   QuestionModel(
     questionText: 'Which programing language is used by Flutter',
     answers: [
+      {'text': '', 'score': 0},
       {'text': 'Ruby', 'score': 0},
       {'text': 'Dart', 'score': 10},
       {'text': 'C++', 'score': 0},
@@ -165,6 +178,7 @@ ii. Greet and meet ''',
   QuestionModel(
     questionText: 'Who created Dart programing language?',
     answers: [
+      {'text': '', 'score': 0},
       {'text': 'Lars Bak and Kasper Lund', 'score': 10},
       {'text': 'Brendan Eich', 'score': 0},
       {'text': 'Bjarne Stroustrup', 'score': 0},
@@ -174,6 +188,7 @@ ii. Greet and meet ''',
   QuestionModel(
     questionText: 'Is Flutter for Web and Desktop available in stable version?',
     answers: [
+      {'text': '', 'score': 0},
       {'text': 'Yes', 'score': 0},
       {'text': 'No', 'score': 10},
     ],
