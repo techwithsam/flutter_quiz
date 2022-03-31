@@ -1,6 +1,6 @@
 # Flutter Festival Ogbomoso 2022
 
-<a href="https://bit.ly/fluttergdgogbo"> <img height="350" width="800" alt="FlutterEvent Banner" src="https://raw.githubusercontent.com/techwithsam/flutter_quiz/main/flutterfestival.jpeg"></a>
+<a href="https://bit.ly/fluttergdgogbo"> <img height="400" width="800" alt="FlutterEvent Banner" src="https://raw.githubusercontent.com/techwithsam/flutter_quiz/main/flutterfestival.jpeg"></a>
 
 GDG Ogbomoso is growing its ecosystem, so we intend to introduce our community members to  Flutter.
 
