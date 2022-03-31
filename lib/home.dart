@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
           elevation: 0,
         ),
         body: Padding(
-          padding: const EdgeInsets.all(30.0),
+          padding: const EdgeInsets.fromLTRB(20.0, 20, 20, 0),
           child: _questionIndex < questions.length
               ? Quiz(
                   answerQuestion: _answerQuestion,

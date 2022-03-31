@@ -15,7 +15,10 @@ class Answer extends StatelessWidget {
       width: double.infinity,
       margin: const EdgeInsets.only(bottom: 12),
       child: ElevatedButton(
-        child: Text(answerText),
+        child: Text(
+          answerText,
+          textAlign: TextAlign.start,
+        ),
         onPressed: selectHandler,
       ),
     );

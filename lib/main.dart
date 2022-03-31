@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.blue,
         platform: TargetPlatform.iOS,
       ),
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       home: const HomeScreen(),
     );
   }
