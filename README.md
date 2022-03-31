@@ -1,5 +1,7 @@
 # Flutter Festival Ogbomoso 2022
 
+<a href="https://bit.ly/fluttergdgogbo"> <img height="350" width="800" alt="FlutterEvent Banner" src="https://raw.githubusercontent.com/techwithsam/flutter_quiz/main/flutterfestival.jpeg"></a>
+
 GDG Ogbomoso is growing its ecosystem, so we intend to introduce our community members to  Flutter.
 
 The facilitator will share his wealth of experience in the workshop "Building your first flutter App"
@@ -12,8 +14,8 @@ The goal is to drive Flutter's interest to the community members before we organ
 
 I’m a student of OUI also an active member of the GDSC_OUI anchoring this session, i always look for ways to grow, expand knowledge-base and also giving back to the community using various mean.
 
-[Google Slide](https://docs.google.com/presentation/d/1P09YmPQ6lEGl7-VapKe8w2LTr8nF4IbFkxIhbYfPpHo/edit?usp=sharing)
-[GDG Ogbomoso](https://gdg.community.dev/gdg-ogbomoso/)
+- [Google Slide](https://docs.google.com/presentation/d/1P09YmPQ6lEGl7-VapKe8w2LTr8nF4IbFkxIhbYfPpHo/edit?usp=sharing)
+- [GDG Ogbomoso](https://gdg.community.dev/gdg-ogbomoso/)
 
 ## Getting Started
 
